@@ -1,0 +1,12 @@
+table th{position: sticky;}
+
+.well img{margin-left: 25%;}
+
+.col-sm-6 input {
+	border: 2px solid black;
+	height: 30px;
+	border-radius: 20px;
+	color: black;
+	width: 250px;
+	line-height: 20px;
+}

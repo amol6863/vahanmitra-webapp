@@ -1,0 +1,118 @@
+.top-bar {background-color: #333333; padding: 5px;}
+
+.well h2 {margin-left: 10px; color: #fff}
+
+
+.well h4 {margin-left: 30px; color: #fff}
+
+.well dash-box {background: teal;}
+
+.menu {
+    margin-top: 40px;
+}
+
+.title{padding-left: 15px; padding-top: 10px; font-weight: bold; color: #fff;}
+
+.menu navbar-default {background: no-repeat; border: none; background-color: #9E9E9E;}
+
+
+
+.menu .nav li a {margin-left: 10px; font-weight: bold; color: #000000 !important;}
+
+/*.menu .navbar-nav .active a, .menu .navbar-nav .active a:hover {background: teal; color: #fff;}*/
+
+.menu .navbar-nav li a:hover {background: teal !important; color: #fff !important;}
+
+
+.box {margin-top: 20px;}
+
+.box input[type="text"],input[type="email"] {
+	background: #fff;
+    height: 35px;
+    width: 300px;
+    border: 1px solid blue;
+    outline: none;
+    margin-top: 0px;
+    padding: 0 25px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    letter-spacing: 3px;
+	border-radius: 10px 10px 10px 10px;
+}
+
+.search input {
+	border-radius: 20px 10px 20px 10px;
+	border: 1px solid #333333;
+    height: 35px;
+    width: 200px;
+    padding: 0 25px;
+}
+
+.end {float: right;}
+
+.footer {background: #333333; color: #fff;  padding: 20px 0;}
+
+.footer ul {list-style: none; margin: 0; padding: 0;}
+
+.footer ul li a {color: #fff; font-size: 15px;}
+
+.col-sm-4 .social li {display: inline-block;}
+
+.col-sm-4 .social li a {
+    font-size: 30px;
+    color: #fff;
+   position: relative;
+   display: block;
+   margin: 8px;
+    transition: .4s;
+    border: 1px solid #fff;
+    text-align: center;
+    overflow: hidden;
+    width: 40px;
+    height: 40px;
+transform: rotate(45deg);}
+
+.col-sm-4 .social li a .fa {
+    transform: rotate(-45deg);
+}
+
+.col-sm-4 .social li a:before {
+    content: '';
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #ff0;
+    transition: .4s;
+}
+
+.col-sm-4 .social li a:hover:before{
+    bottom: 0;
+}
+
+.col-sm-4 .social li a:hover{
+    color: black;
+}
+
+.col-sm-4 .social li:nth-child(1) a:before {
+    background: #3b5998;
+}
+.col-sm-4 .social li:nth-child(2) a:before {
+    background: #00aced;
+}
+.col-sm-4 .social li:nth-child(3) a:before {
+    background: #dd4b39;
+}
+.col-sm-4 .social li:nth-child(4) a:before {
+    background: #bc2a8d;
+}
+.col-sm-4 .social li:nth-child(5) a:before {
+    background: #007bb6;
+}
+
+.modal-header {background: orange;}
+
+@media (max-width: 1200px) {
+    .menu .pull-right {float: none !important;}
+}
